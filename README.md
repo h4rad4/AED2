@@ -1,2 +1,2 @@
 # AED2
-Algoritmos e Estruturas de Dados II
+Exercícios da disciplina, em C++.
