@@ -17,10 +17,10 @@ void Grafo::mostrarGrafo()
     for (int i = 0; i < numVertices; i++)
     {
         std::cout << "Vertice " << i << ": ";
+        
         for (auto it = listaAdjacencia[i].begin(); it != listaAdjacencia[i].end(); ++it)
-        {
             std::cout << *it << " ";
-        }
+
         std::cout << std::endl;
     }
 }
